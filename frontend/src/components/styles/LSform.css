@@ -1,0 +1,88 @@
+.my-form{
+    /* background: #f7f7f7; */
+    position: relative;
+    width: 98%;
+    max-width: 450px;
+    margin: 80px auto 50px;
+    border-radius: 10px;
+    /* border: 2px solid #aaa; */
+    background: #fff;
+    /* background: #fbfbfb; */
+    box-shadow: 0px 5px 15px 0px #00000044;
+    padding-bottom: 10px;
+}
+.my-form .header{
+    /* background: #26292f; */
+    border-radius: 5px 5px 0px 0px;
+    font-size: 30px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.my-form form{
+    margin: auto 8px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 16px;
+    background: #f8f8f777;
+    /* background: #fff; */
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 0px #00000033;
+}
+.my-form form *{
+    margin: 2px;
+}
+.my-form form input{
+    padding: 10px 6px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0px 0px 2px 0px #ccc;
+    /* margin-bottom: 12px; */
+    color: #333;
+    border: 1px solid #999;
+    font-size: 18px;
+}
+
+.my-form form button{
+    width: 80px;
+    margin: 20px 10px 10px 0px;
+    padding: 8px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    /* background: #77ee77; */
+    background: #333;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px 0px #888;
+}
+.my-form form .error{
+    font-size: 12px;
+    color: crimson;
+    margin: 2px;
+    min-height: 4px;
+}
+.my-form form .remember{
+    font-size: 14px;
+}
+.my-form form .remember input{
+    margin: 5px;
+}
+.my-form form .remember span{
+    display: inline-block;
+    position: relative;
+    bottom: 1px;
+}
+.my-form form .input-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.my-form form .input-block {
+    display: inline-flex;
+    flex-direction: column;
+    width: 50%;
+}

@@ -1,0 +1,45 @@
+.loading {
+    background: #fff;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    z-index: 5;
+}
+.loading .loader{
+    font-size: 20px;
+}
+.loading.hide{
+    animation: hide 0.3s ease-in-out 2s 1 forwards;
+}
+.loading .loader img{
+    height: 280px;
+}
+.loading .loader img.hide{
+    animation: hideimg 0.2s ease-in-out 1.9s 1 forwards;
+}
+@keyframes hide{
+    0%{
+        opacity: 1;
+    }
+    99%{
+    }
+    100%{
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+@keyframes hideimg{
+    0%{
+        transform:  scale(1);
+        opacity: 1;
+    }
+    100%{
+        transform:  scale(4);
+        opacity: 0;
+    }
+}

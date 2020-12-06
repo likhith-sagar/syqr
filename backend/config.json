@@ -1,0 +1,8 @@
+{
+    "SECRET_KEY": "secret-key",
+    "DB_URI": "mongodb+srv://your-db-link",
+    "JWT_LIFE": 360000,
+    "JWT_TEMP": 3600,
+    "COOKIE_NAME": "token",
+    "BASE_URL": "localhost:5555/"
+}

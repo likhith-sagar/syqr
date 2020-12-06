@@ -1,0 +1,123 @@
+.create{
+    /* background: #00ff0022; */
+    /* padding: 5px; */
+    padding-top: 20px;
+    background: #fcfcfc;
+    border-radius: 15px;
+    position: relative;
+    padding-bottom: 10px;
+}
+.create img{
+    display: block;
+    margin: 10px auto;
+    margin-top: 30px;
+    width: 30%;
+    min-width: 200px;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px #aaaaaa55;
+}
+.create .created{
+    border-radius: 10px;
+    width: 50%;
+    min-width: 300px;
+    max-width: 450px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: #55995501;
+}
+.create .created .input-series{
+    display: flex;
+    flex-direction: row;
+    border-radius: 8px;
+    box-shadow: 0px 0px 2px 0px #777;
+    margin: 10px auto;
+}
+.create .created .input-series input{
+    outline: none;
+    border: 0px;
+    font-size: 22px;
+    padding: 8px 10px;
+    border-radius: 8px 0px 0px 8px;
+    color: #222;
+    width: 100%;
+}
+.create .created button{
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: #4CAF50;
+    padding: 8px 22px;
+    font-size: 18px;
+    color: white;
+    box-shadow: 0px 0px 3px 0px #00550055;
+}
+.create .created .input-series button{
+    font-size: 20px;
+    padding: 6px 12px;
+    border: none;
+    outline: none;
+    border-radius: 0px 8px 8px 0px;
+    background: #444;
+    color: #fff;
+}
+.create form{
+    padding: 5px 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    width: 50%;
+    min-width: 300px;
+    max-width: 450px;
+    margin: auto;
+    background-color: #55995501;
+}
+.create form label{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+}
+.create form input{
+    outline: none;
+    border: 0px;
+    font-size: 20px;
+    padding: 6px 10px;
+    border-radius: 8px;
+    width: 100%;
+}
+.create form input#custom{
+    border-radius: 0px 8px 8px 0px;
+    padding-left: 2px;
+}
+.create form .baseurl{
+    font-size: 20px;
+    background: #333;
+    color: white;
+    border-radius: 8px 0px 0px 8px;
+    padding: 5px 4px;
+}
+.create form .input-series{
+    display: flex;
+    flex-direction: row;
+    border-radius: 8px;
+    box-shadow: 0px 0px 2px 0px #777;
+    /* justify-content: ; */
+    /* align-items: center; */
+}
+.create form .error{
+    font-size: 12px;
+    color: crimson;
+    margin: 2px;
+    margin-bottom: 2px;
+    min-height: 10px;
+}
+.create form button{
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: #4CAF50;
+    padding: 8px 22px;
+    font-size: 18px;
+    color: white;
+    box-shadow: 0px 0px 3px 0px #00550055;
+}

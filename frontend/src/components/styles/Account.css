@@ -1,0 +1,55 @@
+.account{
+    margin: 10px;
+}
+.account .name{
+    font-size: 32px;
+}
+.account .email{
+    font-size: 16px;
+    color: #555;
+}
+.account .list{
+    margin: 30px auto;
+    text-align: center;
+}
+.account .list .item{
+    border-radius: 5px;
+    border: 2px solid #333;
+    max-width: 500px;
+    margin: 5px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.account .list .item .name{
+    font-size: 20px;
+}
+.account .list .item .clicks{
+    font-size: 16px;
+    border-left: 2px solid #777;
+    padding-left: 5px;
+}
+
+.account .info{
+    margin: 10px auto;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.account .delete{
+    outline: none;
+    border: none;
+    display: block;
+    margin: 10px auto;
+    margin-top: 80px;
+    padding: 15px 10px;
+    font-size: 22px;
+    border-radius: 5px;
+    width: 60%;
+    background: crimson;
+    color: white;
+    box-shadow: 0px 0px 4px 2px #ff000022;
+    cursor: pointer;
+}
