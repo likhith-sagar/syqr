@@ -5,6 +5,8 @@ This repository is made for the purpose of web-tech Project 3rd sem. This site i
 + Backend: Backend for main site
 + Redirecting-backend: Backend for redirecting site
 
+Demo application for this project is hosted @ https://syqr.herokuapp.com/
+
 note:
 + do "npm install" before running files
 + edit "config.json"
