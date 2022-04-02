@@ -6,5 +6,5 @@ Backend: Backend for main site
 Redirecting-backend: Backend for redirecting site
 
 note:
-do "npm install" before running files
-edit "config.json"
++ do "npm install" before running files
++ edit "config.json"
